@@ -1,0 +1,1 @@
+web: gunicorn reactanddjangotodoapp.wsgi --log-file -

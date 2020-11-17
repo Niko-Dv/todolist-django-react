@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '46ajv=7-pmwbs$wn8xm@be+9+%$=67fpep(8ht3kl0g1zkkr)g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-react-todolist.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
